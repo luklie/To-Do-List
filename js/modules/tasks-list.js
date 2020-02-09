@@ -1,9 +1,10 @@
 // Show Tasks
 function showTasks() {
     tasks.forEach(function(title) {
-        addNewTask(title);    
+        addNewTask(title);
     });
 }
+
 
 // Toggle complete
 function toggleTaskComplete(task) {

@@ -22,19 +22,19 @@ function addNewTask(title) {
 
 function prepareTaskHTML(title) {
     return '<div class="input-group">' +
-        '<span class="input-group-btn">' +
-             '<button class="btn btn-default toggle-complete-btn"><i class="fa fa-check"></i></button>'  +
-        '</span>' +
+                '<span class="input-group-btn">' +
+                     '<button class="btn btn-default toggle-complete-btn"><i class="fa fa-check"></i></button>'  +
+                '</span>' +
 
-            '<input type="text" class="form-control" placeholder="Task name.." value="' + title + '">' +
+                '<input type="text" class="form-control" placeholder="Task name.." value="' + title + '">' +
     
-        '<span class="input-group-btn">' +
-            '<button class="btn btn-danger"><i class="fa fa-times"></i></button>' +
-        '</span>' +
-    '</div>';
+                '<span class="input-group-btn">' +
+                    '<button class="btn btn-danger"><i class="fa fa-times"></i></button>' +
+                '</span>' +
+            '</div>';
 }
 
-// Add new task enets
+// Add new task events
 
 function bindAddTaskEvents() {
     
