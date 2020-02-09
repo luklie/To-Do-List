@@ -48,6 +48,5 @@ function bindAddTaskEvents() {
             addNewTask(title);
         }
 
-        addNewTask(title);
     });
 }
