@@ -1,6 +1,6 @@
 var tasks = [
-    'Shopping',
-    'Dentist appointment',
-    'MOT',
-    'Learn JavaScript!'
+	'Go shopping',
+	'Go to cinema',
+	'Running',
+	'Learn JavaScript!'
 ];

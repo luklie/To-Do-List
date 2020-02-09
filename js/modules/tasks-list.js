@@ -1,18 +1,17 @@
-// Show Tasks
+// Show tasks
 function showTasks() {
-    tasks.forEach(function(title) {
-        addNewTask(title);
-    });
+	tasks.forEach(function(title) {
+		addNewTask(title);
+	});
 }
-
 
 // Toggle complete
-function toggleTaskComplete(task) {
-    task.classList.toggle('btn-success');
+function toggleTaskComplete(toggleBtn) {
+	toggleBtn.classList.toggle('btn-success');
 }
-// Delete task
-function deleteTask(task) {
-    var liToDelete = task.closest('li');
 
-    task.closest('ul').removeChild(liToDelete);
+// Delete task
+function deleteTask(deleteBtn) {
+	var liToDelete = deleteBtn.closest('li');
+	deleteBtn.closest('ul').removeChild(liToDelete);
 }
